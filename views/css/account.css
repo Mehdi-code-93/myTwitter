@@ -1,0 +1,144 @@
+h1{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    border : solid grey 1px;
+
+}
+
+.profil2{
+
+    margin-left: 26.3%;
+    
+
+}
+
+
+.avatarTweet{
+    height: 100px;
+    width: 100px;
+    border-radius: 70%;
+    position: absolute;
+    border: solid 1px white;
+    box-shadow: 0 0 10px 0 balck;
+
+}
+
+.banner{
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+ }
+
+.profil3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid grey;
+    padding-bottom: 40px;
+}
+
+
+.name{
+    font-weight: bold;
+}
+.username{
+    font-weight: bold;
+
+}
+
+.city{
+ 
+    padding: 10px;
+    border-radius: 50px;
+    background-color: rgba(128, 128, 128, 0.26);
+    margin-right: 20px;
+    
+}
+
+.birthdate{
+   
+    padding: 10px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(128, 128, 128, 0.26);
+
+}
+
+.afficherTweet{
+
+  
+
+    margin-left: 26.3%;
+}
+
+.boxTweete{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid rgb(208 208 208);
+    /* border-right: 1px solid rgb(208 208 208); */
+    width: 80%;
+    min-height: 200px;
+    position: relative;
+    right: 12px;
+    border-right: 1px solid rgb(208 208 208);
+    border-top:0.5px solid rgb(208 208 208) ;
+}
+
+.tweetBlok{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+}
+.avatarTweete{
+    width: 55px;
+    border-radius: 50%;
+}
+
+
+
+.editer{
+    margin-left: 18%;
+    margin-top: 20px;
+
+
+    border-bottom: 1px solid grey;
+    padding-bottom: 60px;
+    
+  
+   
+}
+
+.titreprofil{
+   border: none;
+   margin-left: 10px;
+  
+   
+}
+
+.displaybtn button{
+
+    display: inline-block;
+    align-items: center;
+    flex-direction: row;
+    
+}
+
+.btn{
+    
+    margin-left: 26.3%;
+    padding: 10px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(128, 128, 128, 0.26);
+    margin-top: 10px;
+
+
+    
+    
+}

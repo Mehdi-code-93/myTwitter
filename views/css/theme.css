@@ -1,0 +1,8 @@
+body{
+    background-color: black;
+    color: white;
+}
+header{
+    background-color: black;
+    border-right: 1px rgb(208, 208, 208) solid;
+}

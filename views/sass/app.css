@@ -1,0 +1,437 @@
+.logo {
+  width: 50px;
+}
+
+.wrapper {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+.wrapper header {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  border-right: 1px rgb(208, 208, 208) solid;
+  height: 100%;
+  padding: 0 0 0 10%;
+  z-index: 1000;
+  background-color: #fff;
+}
+.wrapper header nav {
+  padding: 30px 50px 0 0;
+}
+.wrapper header nav .profil {
+  margin-bottom: 15px;
+  border-bottom: 1px rgb(208, 208, 208) solid;
+}
+.wrapper header nav .profil .profilUser h1 {
+  font-size: 20px;
+}
+.wrapper header nav .profil .profilUser p {
+  margin-top: 5px;
+  font-size: 14px;
+}
+.wrapper header nav .profil .profilFollow {
+  display: flex;
+  margin: 15px 0;
+}
+.wrapper header nav .profil .profilFollow p {
+  font-size: 14px;
+  padding: 0 5px;
+  color: gray;
+}
+.wrapper header nav .profil .profilFollow p span {
+  font-size: 14px;
+}
+.wrapper header nav .navList li {
+  padding: 5px 0;
+  width: 100%;
+}
+.wrapper header nav .navList .navListButton {
+  font-weight: 500;
+  display: inline-block;
+  border-radius: 50px;
+  padding: 10px 20px;
+  transition: all 200ms ease-in-out;
+}
+.wrapper header nav .navList .navListButton .test {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+.wrapper header nav .navList .navListButton:hover {
+  border-radius: 50px;
+  background-color: rgb(203, 225, 242);
+}
+.wrapper header nav .navList i {
+  margin-right: 10px;
+}
+.wrapper header nav .navList .navActive {
+  background-color: rgb(203, 225, 242);
+  font-weight: 650;
+}
+.wrapper header nav .buttonTweeter {
+  margin-top: 20px;
+}
+.wrapper header nav .buttonTweeter button {
+  background-color: rgb(75, 164, 228);
+  padding: 13px 60px;
+  border-radius: 50px;
+  font-weight: 500;
+  color: #fff;
+  transition: all 300ms ease-in-out;
+  box-shadow: 0 7px 30px 5px rgb(111, 176, 222);
+  font-size: 16px;
+  letter-spacing: 0.3px;
+}
+.wrapper header nav .buttonTweeter button:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 30px 5px rgb(111, 176, 222);
+}
+.wrapper header .navSettings i {
+  font-size: 25px;
+  cursor: pointer;
+  color: rgb(48, 77, 98);
+  border-radius: 50%;
+  transition: transform 300ms ease-in-out;
+}
+.wrapper header .navSettings i:hover {
+  transform: rotateZ(100deg);
+}
+.wrapper .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  margin-left: 301px;
+  background-color: rgba(255, 255, 255, 0.5);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  backdrop-filter: blur(20px) saturate(180%);
+  padding: 30px;
+  border-bottom: 1px rgb(208, 208, 208) solid;
+}
+.wrapper .header nav ul li {
+  display: inline-block;
+}
+.wrapper .wrapperContainer {
+  margin-left: 301px;
+  background-color: #fff;
+}
+.wrapper .wrapperContainer .home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+.wrapper .wrapperContainer .home h1 {
+  margin: 15px;
+  font-size: 20px;
+}
+.wrapper main {
+  height: 100%;
+  margin-left: 26.3%;
+  width: 85%;
+}
+.wrapper main h1 {
+  font-size: 20px;
+}
+.wrapper main .mainFlex {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
+.wrapper main .mainFlex .mainFeed {
+  width: 50%;
+}
+.wrapper main .mainFlex .mainFeed .mainHome {
+  z-index: 10;
+  top: 0px;
+  position: sticky;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.9);
+  -webkit-backdrop-filter: blur(10px) saturate(180%);
+  backdrop-filter: blur(10px) saturate(180%);
+  padding: 15px 0;
+  border-bottom: 1px rgb(208, 208, 208) solid;
+}
+.wrapper main .mainFlex .mainFeed .mainHome .navMain nav ul {
+  width: 100%;
+}
+.wrapper main .mainFlex .mainFeed .mainHome .navMain nav ul li {
+  display: inline-block;
+}
+.wrapper main .mainFlex .mainFeed .tweet {
+  background-color: #fff;
+  border-bottom: 1px rgb(208, 208, 208) solid;
+}
+.wrapper main .mainFlex .mainFeed .tweet .tweetProfil {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+}
+.wrapper main .mainFlex .mainFeed .tweet .tweetProfil a {
+  display: inline-block;
+  height: 50px;
+  border-radius: 50%;
+}
+.wrapper main .mainFlex .mainFeed .tweet .tweetProfil a img {
+  height: 50px;
+  border-radius: 50%;
+  transition: all 300ms;
+}
+.wrapper main .mainFlex .mainFeed .tweet .tweetProfil a img:hover {
+  filter: saturate(0%);
+}
+.wrapper main .mainFlex .mainFeed .tweet .tweetProfil input {
+  margin-left: 10px;
+  font-size: 20px;
+  width: 100%;
+}
+.wrapper main .mainFlex .mainFeed .tweet .tweetProfil input::-moz-placeholder {
+  color: rgb(0, 58, 99);
+}
+.wrapper main .mainFlex .mainFeed .tweet .tweetProfil input::placeholder {
+  color: rgb(0, 58, 99);
+}
+.wrapper main .mainFlex .mainFeed .tweet #tweeter {
+  width: 100%;
+}
+.wrapper main .mainFlex .mainFeed .tweet #areaTexte {
+  width: 100%;
+  resize: none;
+  border: none;
+  outline: none;
+}
+.wrapper main .mainFlex .mainFeed .tweet .tweetDetails {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 40px;
+}
+.wrapper main .mainFlex .mainFeed .tweet .tweetDetails .tweetIcons {
+  display: flex;
+  align-items: center;
+}
+.wrapper main .mainFlex .mainFeed .tweet .tweetDetails .tweetIcons i {
+  color: rgb(75, 164, 228);
+  font-size: 15px;
+  padding: 10px;
+  border-radius: 50%;
+  transition: all 200ms;
+}
+.wrapper main .mainFlex .mainFeed .tweet .tweetDetails .tweetIcons i:hover {
+  background-color: rgb(203, 225, 242);
+  padding: 10px;
+  border-radius: 50%;
+}
+.wrapper main .mainFlex .mainFeed .tweet .tweetDetails button {
+  background-color: rgb(75, 164, 228);
+  padding: 10px 20px;
+  border-radius: 50px;
+  font-weight: 500;
+  color: #fff;
+  transition: all 300ms ease-in-out;
+  font-size: 14px;
+  letter-spacing: 0.3px;
+}
+.wrapper main .mainFlex .mainFeed .tweet .tweetDetails button:hover {
+  background-color: rgb(65, 144, 199);
+}
+.wrapper main .mainFlex .mainNavbar {
+  display: flex;
+  position: fixed;
+  width: 36.5%;
+  background-color: rgba(255, 255, 255, 0.9);
+  -webkit-backdrop-filter: blur(10px) saturate(180%);
+  backdrop-filter: blur(10px) saturate(180%);
+  border-bottom: 1px rgb(208, 208, 208) solid;
+}
+.wrapper main .mainFlex .mainNavbar .mainNavList {
+  width: 100%;
+}
+.wrapper main .mainFlex .mainNavbar .mainNavList li {
+  padding: 30px;
+  display: inline-block;
+}
+.wrapper main .mainFlex .mainNavbar .mainNavList a {
+  width: 100%;
+  padding: 30px;
+  font-size: 15px;
+}
+.wrapper main .mainFlex .mainContent {
+  width: 50%;
+  border-right: 1px rgb(208, 208, 208) solid;
+  margin-top: 83px;
+}
+.wrapper main .mainFlex .mainContent2 {
+  position: fixed;
+  margin-left: 36.5%;
+  width: 50%;
+}
+.wrapper main .mainFlex .mainContent2 .searchBar {
+  border-radius: 50px;
+  padding: 10px 20px;
+  display: inline-block;
+  background-color: rgb(233, 238, 241);
+  margin-top: 5px;
+  margin-left: 30px;
+}
+.wrapper main .mainFlex .mainContent2 .searchBar i {
+  margin-right: 10px;
+  font-size: 15px;
+}
+.wrapper main .mainFlex .mainContent2 .searchBar input {
+  font-size: 15px;
+  width: 100%;
+}
+.wrapper main .mainFlex .mainContent2 .searchBar .test {
+  display: flex;
+  align-items: center;
+}
+.wrapper main .mainFlex .mainSearch {
+  position: fixed;
+  width: 73%;
+  background-color: salmon;
+}
+.wrapper main .mainFlex .msgTweeet {
+  display: flex;
+  justify-content: center;
+}
+.wrapper main .mainFlex .boxTweete {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 1px solid rgb(208, 208, 208);
+  width: 102%;
+  min-height: 200px;
+  position: relative;
+  right: 12px;
+}
+.wrapper main .mainFlex .tweetBlok {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+}
+.wrapper main .mainFlex .msg {
+  border: 1px solid rgb(184, 184, 184);
+  width: 80%;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+}
+.wrapper main .mainFlex .avatarTweet {
+  height: 44px;
+  width: 44px;
+  border-radius: 50%;
+}
+.wrapper main .mainFlex .avatarTweetA {
+  width: 55px;
+  border-radius: 50%;
+}
+.wrapper main .mainFlex #tweeter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrapper main .mainFlex form {
+  width: 75%;
+}
+.wrapper main .mainFlex .sideFeed {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border-right: 1px rgb(208, 208, 208) solid;
+  height: 100vh;
+  width: 32%;
+  position: fixed;
+  right: 0px;
+  border-left: 1px solid #d0d0d0;
+  z-index: 995;
+  background-color: #ffffff;
+}
+.wrapper main .mainFlex .sectionUsers {
+  overflow-y: auto;
+  width: 100%;
+}
+.wrapper main .mainFlex .rechercheUsers {
+  border-bottom: 1px solid rgb(208, 208, 208);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  z-index: 10;
+  background-color: white;
+  padding: 4.7% 0px 4.7% 0px;
+}
+.wrapper main .mainFlex .btnSuivre {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  height: 35px;
+  width: 85px;
+  border: 1px solid #4ba5e5;
+  background-color: #fff;
+  color: #4ba5e5;
+}
+.wrapper main .mainFlex .btnSuivre:hover {
+  background-color: rgb(237, 237, 237);
+}
+.wrapper main .mainFlex .inputUsers {
+  display: flex;
+  flex-direction: row;
+  height: 33px;
+  width: 45%;
+  padding-left: 10px;
+  gap: 5px;
+  border-radius: 25px;
+  border: 2px rgb(208, 208, 208) solid;
+}
+.wrapper main .mainFlex .hey {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(109, 109, 109);
+}
+.wrapper main .mainFlex .boxUsers {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border-bottom: 1px solid rgb(208, 208, 208);
+  height: 120px;
+  padding: 15px;
+}
+.wrapper main .mainFlex .usersBlok {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.wrapper main .mainFlex .id_users {
+  display: none;
+}
+.wrapper main .mainFlex .fa-heart {
+  color: #4ba5e5;
+}
+.wrapper main .mainFlex .btnLikes {
+  background-color: #4ba5e5;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  background-position-x: 4px;
+  background-position-y: 5px;
+  background-image: url(../images/heart2.png);
+}/*# sourceMappingURL=app.css.map */
